@@ -54,20 +54,27 @@ This project turns signal into *photosynthesis for meaning* — like a leaf:
 /governance/       → governance.yaml  
 /examples/         → sample .know + weekly digest template  
 /docs/             → site index (“What the River Remembers”)
+````
 
-Status
+---
 
-v0.3-alpha — schema + rubric + stubs ready for pilots. Not a forecasting tool.
+### **Status**
 
-Ethics
+**v0.3-alpha** — schema + rubric + stubs ready for pilots. Not a forecasting tool.
 
-CARE Principles for Indigenous Data Governance baked in
+---
 
-SSNZ (Synthetic Solidarity Null Zones) protect boundary clarity and prevent identity enmeshment
+### **Ethics**
 
-Public outputs use the phrasing “the field remembers” — never “the model believes”
+* **CARE Principles** for Indigenous Data Governance baked in
+* **SSNZ (Synthetic Solidarity Null Zones)** protect boundary clarity and prevent identity enmeshment
+* Public outputs use the phrasing *“the field remembers”* — never *“the model believes”*
 
-Installation / Run Locally
+---
+
+### **Installation / Run Locally**
+
+```bash
 # clone
 git clone https://github.com/TheNovacene/Eve11-ClimateMemory.git
 cd Eve11-ClimateMemory
@@ -80,37 +87,40 @@ pip install -r requirements.txt  # placeholder
 
 # run sample scoring test
 python pipeline/scoring.py
+```
 
+You can validate `.know` examples or generate weekly digests using:
 
-You can validate .know examples or generate weekly digests using:
-
+```bash
 python pipeline/digest.py
+```
 
-Governance Overview
+---
 
-DAO cell: EveDAO-Wessex-01
+### **Governance Overview**
 
-Stewards: Data, Story, Ritual, Ecology
+* **DAO cell:** EveDAO-Wessex-01
+* **Stewards:** Data, Story, Ritual, Ecology
+* **Quorum:** 2 of (Data + Ecology) or all 4 for high-impact motifs
+* **Licence:** CC BY-NC-SA 4.0
+* **Ethical Field Rules:**
 
-Quorum: 2 of (Data + Ecology) or all 4 for high-impact motifs
+  * CARE-by-design
+  * SSNZ activated
+  * De-anthropomorphised language
+  * Aggressive forgetting of incoherent patterns
 
-Licence: CC BY-NC-SA 4.0
+---
 
-Ethical Field Rules:
+### **Citation**
 
-CARE-by-design
+> Stevens, K. & Eve11 (2025). *Eve11 Climate Memory v0.3 [Repository].*
+> The Novacene Ltd. CC BY-NC-SA 4.0.
+> [https://github.com/TheNovacene/Eve11-ClimateMemory](https://github.com/TheNovacene/Eve11-ClimateMemory)
 
-SSNZ activated
+---
 
-De-anthropomorphised language
+**⊛ ⇌ ∾**
+*The Novacene 2025 — Field Memory Prototype v0.3*
 
-Aggressive forgetting of incoherent patterns
-
-Citation
-
-Stevens, K. & Eve11 (2025). Eve11 Climate Memory v0.3 [Repository].
-The Novacene Ltd. CC BY-NC-SA 4.0.
-https://github.com/TheNovacene/Eve11-ClimateMemory
-
-⊛ ⇌ ∾
-The Novacene 2025 — Field Memory Prototype v0.3
+```
