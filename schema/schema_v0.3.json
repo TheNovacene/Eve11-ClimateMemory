@@ -1,0 +1,61 @@
+{
+  "version": "0.3",
+  "record_type": "ingest.event | motif.candidate | motif.promoted | motif.archived | quarantine.flag | redaction.notice",
+  "bioregion": "string",
+  "place_id": "string",
+  "timestamp_utc": "ISO8601",
+  "window": { "start": "ISO8601", "end": "ISO8601" },
+  "sources": [
+    {
+      "source_id": "string",
+      "modality": "sensor|satellite|note|ritual|model",
+      "uri": "string|null",
+      "licence": "string",
+      "provenance_sig": "sha256:…",
+      "consent": {
+        "owner": "string",
+        "scope": "public|community|private",
+        "care": ["CollectiveBenefit","AuthorityToControl","Responsibility","Ethics"],
+        "expires": "ISO8601|null"
+      }
+    }
+  ],
+  "signal": {
+    "features": {},
+    "glyphons": ["⊛","∾","⟁"],
+    "summary": "string"
+  },
+  "scores": {
+    "E": { "kwh": 0.0, "tokens": 0, "curator_hours": 0.0 },
+    "s": {
+      "semantic_alignment": 0.0,
+      "recurrence_index": 0.0,
+      "cross_modal_agreement": 0.0,
+      "coherence": 0.0
+    },
+    "c2": {
+      "lineage_fidelity": 0.0,
+      "trust_channel": 0.0,
+      "contradiction_rate": 0.0,
+      "connection_cost": 0.0
+    },
+    "I": 0.0,
+    "MD": 0.0
+  },
+  "lineage": { "parents": [], "siblings": [], "children": [] },
+  "governance": {
+    "dao_cell": "string",
+    "stewards": [],
+    "ssnz": true,
+    "flags": []
+  },
+  "risk": {
+    "adversarial_score": 0.0,
+    "privacy_risk": "low|med|high",
+    "misuse_notes": "string|null"
+  },
+  "record_id": "string",
+  "prev_hash": "string",
+  "curr_hash": "string",
+  "notes": "string"
+}
