@@ -1,0 +1,36 @@
+version: 0.3
+dao_cell: EveDAO-Wessex-01
+
+steward_roles:
+  - Data
+  - Ecology
+  - Story
+  - Ritual
+
+promotion_quorum:
+  standard: ["Data", "Ecology"]           # 2 of 2
+  high_impact: ["Data", "Ecology", "Story", "Ritual"]  # 3 of 4 or all 4
+
+care_principles_required:
+  - CollectiveBenefit
+  - AuthorityToControl
+  - Responsibility
+  - Ethics
+
+ssnz: true
+
+public_language_rules:
+  anthropomorphism: "Disallow. Use 'the field remembers…'"
+  identity_enmeshment: "Disallow plural-we in contested outputs"
+
+redaction_policy:
+  reasons: ["consent_withdrawn", "safety_risk", "legal_request"]
+  emit_notice: true
+
+security:
+  adversarial_threshold: 0.25
+  contradiction_rate_max: 0.25
+
+licensing:
+  content: "CC BY-NC-SA 4.0"
+  code: "CC BY-NC-SA 4.0"
